@@ -1,0 +1,9 @@
+server:
+  port: 8081  #端口配置，如果是https,80端口要配置成433
+  address: 0.0.0.0 #服务地址，0.0.0.0表示内外网都可以访问，如果不配置Adress，端口可能不会生效
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/flowable?characterEncoding=UTF-8&serverTimezone=UTC
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Gkmysql1@3
